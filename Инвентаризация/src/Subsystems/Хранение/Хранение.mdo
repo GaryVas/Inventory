@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40dae05c-3723-407b-865d-a2f44a50ada6">
+  <name>Хранение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хранение</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.РасположенияВещей</content>
+  <content>Catalog.МестаХранения</content>
+  <content>Report.ОтчетПоРасположениям</content>
+  <content>Catalog.Номенклатура</content>
+</mdclass:Subsystem>

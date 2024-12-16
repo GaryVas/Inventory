@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08a36f50-f2fe-409c-ae3a-62614d797835">
+  <producedTypes>
+    <selectionType typeId="99cb3369-8891-40f6-bc8d-6426fb2c08f6" valueTypeId="484376fb-9cc7-4568-a1da-dc1934c0f134"/>
+    <listType typeId="7f4d09cc-a6de-4f94-a09a-8208a65bc8a6" valueTypeId="6e8e7a10-2ebf-4dd1-b4f4-234092edb227"/>
+    <managerType typeId="7f7490dc-20e7-49b7-8a35-88e9455b5eac" valueTypeId="05f5ded2-ad6c-4a75-a2bc-0c2bdf89a7ad"/>
+    <recordSetType typeId="8d8219c2-146b-49df-9188-7a709be4b1a7" valueTypeId="570bea61-a4ba-47c4-bdfb-ed195d9c62d1"/>
+    <recordKeyType typeId="afd38937-55d1-4f6d-a752-7a1a2c9d99d5" valueTypeId="98644b2a-a974-41c4-8642-c17daf1a370c"/>
+    <recordType typeId="c56b0fb4-ffe9-4e44-b13a-238aedfcbf98" valueTypeId="f0cf951d-164f-4762-9cb4-89ec9236f66e"/>
+    <recordManagerType typeId="b9e910fc-e2b4-49a2-9fa7-fa32aa32e8e1" valueTypeId="5ccc23d2-b366-4d92-9889-04c6e6c684a4"/>
+  </producedTypes>
+  <name>РасположенияВещей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расположения вещей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Расположение вещей</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Расположения вещей</value>
+  </listPresentation>
+  <resources uuid="dccaace2-0404-472f-bc80-3b34899ab37e">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="a0a9ceb7-25ef-4261-ae39-4306317a8b7e">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ba8792e6-4fc6-465f-b2c4-aa8480186c11">
+    <name>МестоХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место хранения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МестаХранения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
